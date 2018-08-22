@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #396afc, #2948ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.love {
+  color: red;
+  margin-left: 20px;
+  font-size: 3em;
+}
+
+.fancy-shadow {
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
