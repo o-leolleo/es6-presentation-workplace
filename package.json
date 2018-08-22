@@ -5,16 +5,20 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "webpack"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
-    "lodash": "^4.17.10"
+    "@babel/core": "^7.0.0-rc.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.2",
+    "@babel/preset-env": "^7.0.0-rc.2",
+    "babel-loader": "^8.0.0-beta.6",
+    "lodash": "^4.17.10",
+    "webpack": "^4.17.1"
   }
 }
