@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "prod": "webpack --mode=production",
+    "dev": "webpack --mode=development",
+    "watch": "webpack --watch --mode=development"
   },
   "keywords": [],
   "author": "",

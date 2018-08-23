@@ -10,3 +10,4 @@ function updateJavascript() {
 }
 
 updateJavascript();
+console.log("1984");
