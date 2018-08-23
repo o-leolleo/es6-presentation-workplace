@@ -1,4 +1,4 @@
-## Quick setup (é isso é um script ou colinha)
+## Quick setup (é, isso é um script, ou colinha)
 
 ```shell-session
 npm init -y
